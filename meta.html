@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Matheus Goto e Felipe de Sousa" content="Projeto 1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Meta da Campanha - Campanha do Agasalho</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="titulo">Campanha do Agasalho</h1>
+        </a>
+        <nav>
+            <a href="index.html" class="link-menu">Home</a>
+            <a href="coleta.html" class="link-menu">Pontos de Coleta</a>
+            <a href="sobre.html" class="link-menu">Sobre</a>
+            <a href="doar.html" class="link-menu">Quero Doar</a>
+            <a href="meta.html" class="link-menu">Meta</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="meta-section">
+            <h2 id="titulo-meta">Meta da Campanha</h2>
+            <p class="descricao-meta">Acompanhe em tempo real quanto já arrecadamos e o quanto falta para atingir nosso objetivo.</p>
+
+            <div class="meta-destaque">
+                <p class="meta-numero"><span id="contador-total">0</span></p>
+                <p class="meta-label">peças arrecadadas de <span id="meta-objetivo">0</span></p>
+
+                <div class="barra-fundo">
+                    <div class="barra-progresso" id="barra-total"></div>
+                </div>
+
+                <p class="meta-porcentagem"><span id="porcentagem-total">0</span>% da meta atingida</p>
+                <p class="meta-restante" id="faltam"></p>
+            </div>
+
+            <h3 class="subtitulo-meta">Arrecadação por categoria</h3>
+            <div id="lista-categorias"></div>
+
+            <p class="meta-atualizacao" id="ultima-atualizacao"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p class="rodape">Desenvolvido por: Matheus Goto e Felipe de Sousa</p>
+    </footer>
+
+    <script src="meta.js"></script>
+</body>
+</html>

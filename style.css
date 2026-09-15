@@ -1,0 +1,891 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;    
+    margin: 0;
+}
+
+main {
+    min-height: 80vh; 
+    flex: 1;
+}
+
+figure {
+    margin: 0;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;               
+    justify-content: space-between; 
+    align-items: center;        
+    width: 100%;  
+    background-color: black;     
+    padding: 40px 0;
+}
+
+#titulo {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-transform: uppercase;
+    margin: 0 0 0 60px;
+}
+
+nav {
+    display: flex;
+    gap: 40px;        
+    margin-right: 100px;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;         
+}
+
+.link-menu {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+#hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px; 
+    padding: 80px 40px; 
+}
+
+.botoes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px
+}
+
+.btn-principal {
+    margin-bottom: 25px; 
+}
+
+.btn-principal, .btn-secundario {
+    text-decoration: none;  
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px 0;        
+    font-size: 17px;
+    width: 100%;            
+    max-width: 480px;       
+    text-align: center;     
+    display: block;         
+}
+.hero-imagem {
+    margin-right: 5%;
+}
+
+.hero-textos {
+    width: 450px; 
+    text-align: center;
+    margin-left: 5%;  
+}
+
+#titulo-descricao {
+    color: black;
+    font-size: 45px;
+    margin: 0 0 20px 0; 
+    text-align: center; 
+}
+
+.descricao {
+    color: rgb(92, 92, 92);
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.img-hero {
+    border-radius: 15px;
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+#vitrine {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 40px;
+}
+
+.card {
+    text-align: center;
+    width: 250px; 
+    transition: all 0.3s ease;
+}
+
+.titulo-servicos {
+    text-transform: uppercase;
+    font-size: 20px;
+    min-height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin: 0 0 10px 0;
+}
+
+.descricao-servicos {
+    font-size: 16px;
+    color: rgb(92, 92, 92);
+    margin: 0 0 20px 0;
+    min-height: 60px; 
+}
+
+.imagem-vitrine {
+    width: 100%; 
+    height: auto;
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 15px;
+}
+
+.card figcaption {
+    font-size: 14px; 
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    margin-top: 50px; 
+}
+
+.rodape {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0; 
+    padding: 20px;
+}
+
+
+/* CONTATO */
+
+* {
+    box-sizing: border-box;
+}
+
+.container-contato {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.campo {
+    padding-top: 20px;
+}
+
+#contato {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+#preencha {
+    text-align: center;   
+    font-size: 20px;
+}
+
+label {
+    font-weight: bold; 
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 100%;
+    display: block ;
+    text-align: center;
+}
+
+input {
+    border: 1px solid black; 
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+}
+
+textarea {
+    border: 1px solid black; 
+    border-radius: 15px;   
+    width: 100%;
+}
+
+#estudante-empreendedor {
+    font-size: 20px;
+    text-align: center;
+}
+
+#interesse-id {
+    font-size: 20px;
+    text-align: center;
+}
+
+#telefone-id {
+    font-size: 20px;
+    text-align: center;
+}
+
+#nome-id {
+    font-size: 20px;
+    text-align: center;
+}
+
+#email-id {
+    font-size: 20px;
+    text-align: center;
+}
+
+#msg-id {
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-enviar {
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 15px;
+    padding: 15px 40px;
+    margin: 20px auto;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+}
+
+select {
+    border: 1px solid black; 
+    border-radius: 15px;
+    padding: 10px;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* SOBRE */
+
+#sobre {
+    text-align: center;
+    margin-top: 60px;
+}   
+
+#sobre-nos {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.sobre-subtitulo {
+    max-width: 700px;    
+    margin: 10px auto;   
+    padding: 20px;
+    background-color: #fdfdfd; 
+    border-radius: 10px;
+}
+
+.texto-sobre {
+    max-width: 800px;     
+    margin-left: auto;   
+    margin-right: auto;  
+    text-align: justify; 
+    line-height: 1.6;
+}
+
+
+.sobre-subtitulo ul {
+    list-style-type: square; 
+    padding-left: 40px; 
+    text-align: left;
+}
+
+.subtitulo {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px; 
+    color: hsl(0, 0%, 20%);
+}
+
+.subtitulo strong {
+    color: black;
+    font-weight: bold;
+}
+
+/* CONTAINER DA PÁGINA DE SERVIÇOS */
+.container-servicos {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+}
+
+#titulo-servicos-pag {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#titulo-doou {
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px 0 10px 0;
+}
+
+.descricao-tabela {
+    margin-bottom: 40px;
+    font-size: 18px;
+    color: #666;
+}
+
+/* TABELA */
+.tabela-servicos {
+    width: 100%;
+    border-collapse: collapse; 
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.tabela-servicos th, .tabela-servicos td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+/* CABEÇALHO DA TABELA */
+.tabela-servicos thead th {
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tabela-servicos tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.tabela-servicos tbody tr:hover {
+    background-color: #f1f1f1;
+    transition: 0.3s;
+}
+
+.card-expandido {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.descricao-expandida {
+    display: none;
+    font-size: 14px;
+    color: rgb(92, 92, 92);
+    text-align: center;
+}
+
+.card-expandido .descricao-expandida {
+    display: block;
+}
+
+/* VIDEO */
+#video-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 40px;
+    text-align: center;
+}
+
+#titulo-video {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.descricao-video {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.video-container video {
+    width: 100%;
+    display: block;
+}
+
+/* META DA CAMPANHA */
+#meta-section {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo-meta {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.descricao-meta {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 50px;
+}
+
+.meta-destaque {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.meta-numero {
+    font-size: 72px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+    line-height: 1;
+}
+
+.meta-label {
+    font-size: 18px;
+    color: #666;
+    margin: 10px 0 30px 0;
+}
+
+.meta-porcentagem {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0 5px 0;
+}
+
+.meta-restante {
+    font-size: 16px;
+    color: #666;
+    margin: 0;
+}
+
+/* BARRAS DE PROGRESSO */
+.barra-fundo {
+    width: 100%;
+    height: 28px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.barra-progresso {
+    width: 0%;
+    height: 100%;
+    background-color: black;
+    border-radius: 15px;
+    transition: width 1.5s ease;
+}
+
+/* CATEGORIAS DA META */
+.subtitulo-meta {
+    font-size: 26px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+#lista-categorias {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+.card-categoria {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: left;
+}
+
+.categoria-nome {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    color: black;
+}
+
+.categoria-numeros {
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+    margin: 0 0 15px 0;
+}
+
+.card-categoria .barra-fundo {
+    height: 18px;
+}
+
+.categoria-porcentagem {
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    margin: 10px 0 0 0;
+    text-align: right;
+}
+
+.meta-atualizacao {
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+}
+
+/* PONTOS DE COLETA */
+.container-coleta {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#titulo-coleta {
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.descricao-coleta {
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: #666;
+}
+
+.localizacao-container {
+    margin-bottom: 30px;
+}
+
+.btn-localizacao {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 15px 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#status-localizacao {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    min-height: 18px;
+}
+
+.filtros {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.campo-filtro {
+    flex: 1;
+    min-width: 250px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.campo-filtro label {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+#contador-resultados {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#lista-pontos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.card-ponto {
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 25px;
+    width: 100%;
+    max-width: 460px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card-ponto:hover {
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+.ponto-campus {
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+    color: black;
+}
+
+.ponto-distancia {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 4px 12px;
+    border-radius: 10px;
+    margin: 0 0 12px 0;
+}
+
+.ponto-info {
+    font-size: 15px;
+    color: rgb(92, 92, 92);
+    margin: 0 0 8px 0;
+    line-height: 1.5;
+}
+
+.btn-mapa {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 30px;
+    margin-top: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.mapa-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+   
+    header {
+        padding: 15px 0;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #vitrine {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    
+    .card {
+        width: 90%;
+        max-width: 250px;
+    }
+
+    #titulo {
+        font-size: 28px;
+        margin: 0;
+        
+    }
+    
+    nav {
+        gap: 5px;  
+        margin-right: 0;      /* Remove a margem */
+        justify-content: center;  /* Centraliza */
+    }
+    
+
+    #hero-section {
+        flex-direction: column;  
+        gap: 30px;
+        padding: 40px 20px;  
+    }
+    
+    .img-hero {
+        width: 100%;
+        max-width: 400px;  
+        height: auto;  
+        
+    }
+    
+    .hero-textos {
+        width: 100%;  
+        margin-left: 0;  
+    }
+    
+    .container-contato {
+        width: 90%;  
+    }
+    
+    .botoes-container {
+        display: flex; 
+    }
+    
+    .hero-imagem {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    }
+    
+    #titulo-descricao {
+        font-size: 30px;  
+    }
+
+    #sobre-nos {
+    font-size: 40px;
+    }
+
+    .texto-sobre {
+    max-width: 90%;
+    margin: 0 auto;
+    } 
+
+    .sobre-subtitulo {
+        max-width: 90%;
+    }
+
+    .subtitulo {
+        font-size: 16px;
+    }
+
+    #titulo-servicos-pag {
+        font-size: 35px;
+    }
+
+    .container-servicos{
+        max-width: 90%;
+    }
+
+    .tabela-servicos th, .tabela-servicos td{
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .descricao-tabela{
+        font-size: 15px;
+    }
+
+    #contato {
+        font-size: 40px;
+    }
+
+    #preencha {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 20px;
+    }
+
+    #nome-id, #email-id, #telefone-id, #msg-id, #estudante-empreendedor, #interesse-id {
+    font-size: 16px;
+    }
+
+    .btn-enviar {
+        font-size: 16px;
+    }
+
+    #video-section {
+        padding: 40px 20px;
+    }
+
+    #titulo-video {
+        font-size: 30px;
+    }
+
+    #meta-section {
+        max-width: 90%;
+    }
+
+    #titulo-meta {
+        font-size: 30px;
+    }
+
+    .descricao-meta {
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .meta-numero {
+        font-size: 48px;
+    }
+
+    .meta-destaque {
+        padding: 25px 18px;
+    }
+
+    .subtitulo-meta {
+        font-size: 20px;
+    }
+
+    .card-categoria {
+        padding: 18px;
+    }
+
+    .categoria-nome {
+        font-size: 16px;
+    }
+
+    .container-coleta {
+        max-width: 90%;
+    }
+
+    #titulo-coleta {
+        font-size: 30px;
+    }
+
+    .descricao-coleta {
+        font-size: 15px;
+    }
+
+    .filtros {
+        flex-direction: column;
+    }
+
+    .campo-filtro {
+        max-width: 100%;
+    }
+
+    .card-ponto {
+        padding: 18px;
+    }
+
+    .ponto-campus {
+        font-size: 17px;
+    }
+}
