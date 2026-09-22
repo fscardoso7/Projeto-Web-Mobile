@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Matheus Goto e Felipe de Sousa" content="Projeto 1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Pontos de Coleta - Campanha do Agasalho</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="titulo">Campanha do Agasalho</h1>
+        </a>
+        <nav>
+            <a href="index.html" class="link-menu">Home</a>
+            <a href="sobre.html" class="link-menu">Sobre</a>
+            <a href="doar.html" class="link-menu">Quero Doar</a>
+            <a href="meta.html" class="link-menu">Meta</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-coleta">
+            <h2 id="titulo-coleta">Pontos de Coleta</h2>
+            <p class="descricao-coleta">Encontre o ponto de coleta mais próximo de você. Use sua localização ou filtre por região.</p>
+
+            <div class="localizacao-container">
+                <button id="btn-localizacao" class="btn-localizacao">Usar minha localização</button>
+                <p id="status-localizacao"></p>
+            </div>
+
+            <div class="filtros">
+                <div class="campo-filtro">
+                    <label for="filtro-regiao">Filtrar por região:</label>
+                    <select id="filtro-regiao">
+                        <option value="todas">Todas as regiões</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Grande São Paulo">Grande São Paulo</option>
+                        <option value="Interior">Interior</option>
+                    </select>
+                </div>
+            </div>
+
+            <p id="contador-resultados"></p>
+
+            <div id="lista-pontos"></div>
+
+            <div class="mapa-container">
+                <iframe
+                    id="mapa"
+                    src="https://www.google.com/maps?q=Universidade+Presbiteriana+Mackenzie+Higienopolis&output=embed"
+                    width="100%"
+                    height="450"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Mapa dos pontos de coleta">
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="rodape">Desenvolvido por: Matheus Goto e Felipe de Sousa</p>
+    </footer>
+
+    <script src="coleta.js"></script>
+</body>
+</html>

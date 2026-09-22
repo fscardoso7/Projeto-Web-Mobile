@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "campus": "Campus Higienópolis",
+        "bairro": "Higienópolis",
+        "regiao": "Centro",
+        "endereco": "Rua da Consolação, 930 - São Paulo/SP",
+        "horario": "Segunda a sexta, das 8h às 21h",
+        "lat": -23.5489,
+        "lng": -46.6519
+    },
+    {
+        "id": 2,
+        "campus": "Campus Alphaville",
+        "bairro": "Tamboré (Barueri)",
+        "regiao": "Grande São Paulo",
+        "endereco": "Av. Mackenzie, 905 - Tamboré, Barueri/SP",
+        "horario": "Segunda a sexta, das 12h às 21h",
+        "lat": -23.4890,
+        "lng": -46.8330
+    },
+    {
+        "id": 3,
+        "campus": "Campus Campinas",
+        "bairro": "Jardim Guanabara",
+        "regiao": "Interior",
+        "endereco": "Av. Brasil, 1220 - Jd. Guanabara, Campinas/SP",
+        "horario": "Segunda a sexta, das 9h às 19h",
+        "lat": -22.8100,
+        "lng": -47.0700
+    }
+
+]

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Quero Doar - Campanha do Agasalho</title>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h1 id="titulo">Campanha do Agasalho</h1>
+        </a>
+        <nav>
+            <a href="index.html" class="link-menu">Home</a>
+            <a href="coleta.html" class="link-menu">Pontos de Coleta</a>
+            <a href="sobre.html" class="link-menu">Sobre</a>
+            <a href="doar.html" class="link-menu">Quero Doar</a>
+            <a href="meta.html" class="link-menu">Meta</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 id="titulo-doou">O que você doou?</h2>
+        <p id="status-doacao" class="status-mensagem"></p>
+        <section id="vitrine">
+            <article id="agasalhos" class="card" onclick="registrarDoacao('agasalhos')">
+                <h3 class="titulo-servicos">Agasalhos & Moletons</h3>
+                <p class="descricao-servicos">Casacos, moletons, blusas de frio e jaquetas.</p>
+                <p class="descricao-expandida">Aceitamos casacos, moletons, blusas de frio e jaquetas de todos os tamanhos, adulto e infantil. As peças devem estar limpas e em bom estado de conservação, sem rasgos ou manchas permanentes.</p>
+                <figure>
+                    <img class="imagem-vitrine" src="img/agasalhos.jpeg" alt="Agasalhos e moletons">
+                    <figcaption>Agasalhos & Moletons</figcaption>
+                </figure>
+            </article>
+
+            <article id="cobertores" class="card" onclick="registrarDoacao('cobertores')">
+                <h3 class="titulo-servicos">Cobertores & Mantas</h3>
+                <p class="descricao-servicos">Cobertores, mantas e edredons para as noites frias.</p>
+                <p class="descricao-expandida">Cobertores, mantas e edredons são os itens de maior demanda durante o inverno. Aceitamos peças de solteiro e casal, desde que estejam limpas e sem furos. Roupas de cama em bom estado também são bem-vindas.</p>
+                <figure>
+                    <img class="imagem-vitrine" src="img/cobertos.jpeg" alt="Cobertores e mantas">
+                    <figcaption>Cobertores & Mantas</figcaption>
+                </figure>
+            </article>
+
+            <article id="calcados" class="card" onclick="registrarDoacao('calcados')">
+                <h3 class="titulo-servicos">Calçados</h3>
+                <p class="descricao-servicos">Tênis, sapatos e botas em bom estado.</p>
+                <p class="descricao-expandida">Tênis, sapatos e botas fechadas ajudam a proteger do frio e da chuva. Pedimos que os pares estejam completos, limpos e com solado em condições de uso. Chinelos e sandálias não são aceitos nesta campanha.</p>
+                <figure>
+                    <img class="imagem-vitrine" src="img/calcados.jpeg" alt="Calçados">
+                    <figcaption>Calçados</figcaption>
+                </figure>
+            </article>
+
+            <article id="infantil" class="card" onclick="registrarDoacao('infantil')">
+                <h3 class="titulo-servicos">Roupas Infantis</h3>
+                <p class="descricao-servicos">Peças de inverno para bebês e crianças.</p>
+                <p class="descricao-expandida">Roupas infantis de inverno são as que mais faltam nas arrecadações. Aceitamos macacões, casaquinhos, meias, toucas e luvas para bebês e crianças de todas as idades, desde que estejam limpos e íntegros.</p>
+                <figure>
+                    <img class="imagem-vitrine" src="img/roupas_infantis.jpeg" alt="Roupas infantis">
+                    <figcaption>Roupas Infantis</figcaption>
+                </figure>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p class="rodape">Desenvolvido por: Matheus Goto e Felipe de Sousa</p>
+    </footer>
+
+    <script src="doar.js"></script>
+</body>
+</html>
